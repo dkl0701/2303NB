@@ -24,3 +24,7 @@ div h5 {
   line-height: 50px;
   background-color: plum;
 }
+div h6 {
+  line-height: 50px;
+  background-color: chocolate;
+}

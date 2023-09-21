@@ -1,6 +1,10 @@
 @w:1000px;
 @h:500px;
 @lh: (@h/5);
+.bgc(@bgc){
+    background-color: @bgc;
+
+}
 div{
 width: @w;
 height: @h;
@@ -8,7 +12,12 @@ border: 3px solid red;
 h1{
     width: @w;
     height:@lh;
-    background-color: pink;
+    // background-color: pink;
+    .bgc(pink);
     line-height:@lh ;
+}
+h2{
+    // background-color: orange;
+    .bgc(orange);
 }
 }
